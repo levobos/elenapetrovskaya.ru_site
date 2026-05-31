@@ -1,0 +1,249 @@
+#about {
+    background-color: #FFFFFF;
+    scroll-margin-top: 8vh; 
+    padding: 4% 8%;
+}
+#about img {
+    box-shadow:0 0 1vh rgba(0,0,0,0.3);
+    float: left;
+    margin: 0 3vw 0 0;
+    border-radius: 1vh;
+    width: 50%;
+}
+#about h1 {
+    display: flex;
+    font-size: 2.4vw;
+    font-weight: 400;
+    margin: 0;
+}
+#about ul {
+    margin: 0;
+    padding-left: 2vw;
+}
+#about p {
+    font-size: 1.6vw;
+    font-weight: 200;
+    line-height: 2;
+    margin: 0;
+}
+#about li{
+    font-size: 1.6vw;
+    font-weight: 200;
+    margin: 1vh;
+}
+#about-add {
+    background-color: #f8f4e8;
+    display: grid;
+    grid-template-columns: auto auto;
+    width: auto;
+    height: auto;
+    grid-row: 2;
+    padding: 2% 4%;
+}
+#about-add .element {
+    display: flex;
+    align-items: flex-start;
+    margin: 1vw;
+}
+#about-add .element img{
+    align-content: center;
+    width: 8vw;
+    margin: 0 2vw 0 0;
+}
+#about-add .element h1{
+    display: flex;
+    font-size: 1.6vw;
+    font-weight: 800;
+    margin: 0;
+}
+#about-add .element ul {
+    margin: 0;
+    padding: 0;
+}
+#about-add .element p {
+    font-size: 1.2vw;
+    font-weight: 200;
+}
+#about-add .element li {
+    font-size: 1.2vw;
+    margin: 1vw;
+}
+#about-quote {
+    background-color: #FFFFFF;
+    gap: 8vw;
+    display: flex;
+    width: auto;
+    height: auto;
+    padding: 4% 8%;
+}
+#about-quote span{
+    align-content: center;
+    margin: auto;
+}
+#about-quote p {
+    align-content: center;
+    font-size: 1.6vw;
+    font-weight: 200;
+    margin: 0;
+}
+#about-quote h1 {
+    text-align: center;
+    font-size: 1.6vw;
+}
+#about-quote h2 {
+    text-align: center;
+    font-size: 1.2vw;
+    font-weight: 200;
+}
+#about-quote img {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: auto;
+    width: 8vw;
+    border-radius: 50%;
+}
+#about-story {
+    background-color: #f8f4e8;
+    gap: 8vw;
+    display: flex;
+    width: auto;
+    height: auto;
+    padding: 2% 4%;
+    margin-bottom: 2vh;
+}
+#about-story p {
+    font-size: 1.6vw;
+    line-height: 1.6;
+    font-weight: 200;
+}
+#about-story img {
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-start;
+    margin: auto;
+    box-shadow: 0 0 1vh rgba(0,0,0,0.3);
+    border-radius: 1vh;
+    width: 32vw;
+}
+@media (max-width: 600px){
+    #about {
+        display: grid;
+    }
+    #about img {
+        justify-items: center;
+        margin: 0 auto 0 auto;
+        width: 80%;
+    }
+    #about h1 {
+        font-size: 3.2vw;
+        text-align: center;
+        margin: 1vh auto 2vh auto;
+    }
+    #about p {
+        font-size: 4vw;
+        font-weight: 200;
+        margin: 0;
+    }
+    #about li{
+        font-size: 4vw;
+        font-weight: 200;
+        margin: 1vh;
+    }
+    #about-add {
+        background-color: #f8f4e8;
+        display: grid;
+        grid-template-columns: auto;
+        width: auto;
+        height: auto;
+        grid-row: 2;
+        padding: 2% 4%;
+    }
+    #about-add .element {
+        display: flex;
+        align-items: flex-start;
+        margin: 2vw;
+    }
+    #about-add .element img{
+        align-content: center;
+        width: 12vw;
+        margin: 0 4vw 0 0;
+    }
+    #about-add .element h1{
+        display: flex;
+        font-size: 4vw;
+        font-weight: 400;
+        margin: 0;
+    }
+    #about-add .element ul {
+        margin-left: 2vw;
+        padding: 0;
+    }
+    #about-add .element p {
+        font-size: 3vw;
+        font-weight: 200;
+        margin: 0;
+    }
+    #about-add .element li {
+        font-size: 3vw;
+        margin: 1vw;
+    }
+    #about-quote {
+        background-color: #FFFFFF;
+        gap: 8vw;
+        display: grid;
+        width: auto;
+        height: auto;
+        padding: 4% 8%;
+    }
+    #about-quote span{
+        align-content: center;
+        margin: auto;
+    }
+    #about-quote p {
+        align-content: center;
+        font-size: 4vw;
+        font-weight: 200;
+        margin: 0;
+    }
+    #about-quote h1 {
+        text-align: center;
+        font-size: 4vw;
+    }
+    #about-quote h2 {
+        text-align: center;
+        font-size: 3vw;
+        font-weight: 200;
+    }
+    #about-quote img {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        margin: auto;
+        width: 12vw;
+        border-radius: 50%;
+    }
+    #about-story {
+        background-color: #f8f4e8;
+        display: flex;
+        flex-direction: column-reverse;
+        width: auto;
+        height: auto;
+        gap: 0;
+        padding: 2% 4%;
+    }
+    #about-story p {
+        font-size: 4vw;
+        font-weight: 200;
+        margin: 0;
+    }
+    #about-story img {
+        display: flex;
+        justify-content: flex-end;
+        align-content: flex-start;
+        margin: 2vh auto;
+        box-shadow: 0 0 1vh rgba(0,0,0,0.3);
+        border-radius: 1vh;
+        width: 64vw;
+    }
+}
