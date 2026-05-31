@@ -1,0 +1,216 @@
+#services-and-prices {
+    background-color: #FFFFFF;
+    scroll-margin-top: 8vh; 
+    padding: 4% 8%;
+}
+#services-and-prices h1 {
+    text-align: center;
+    font-size: 2.4vw;
+    font-weight: 800;
+}
+.prices {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: auto;
+    height: auto;
+    grid-row: 2;
+}
+.price { 
+    font-size: 1.5vw;
+    margin: 1.5vw;
+}
+.price h2{
+    font-size: 1.6vw;
+    margin: 0;
+}
+.price h6 {
+    font-weight: 200;
+    font-size: 1.6vw;
+    margin: 0;
+}
+.price p {
+    font-size: 1.2vw;
+    margin: 0;
+}
+.price hr {
+    color: #5199ff;;
+}
+.price span {
+    display: flex;
+    justify-content: space-between;
+}
+#services-and-prices-reviews {
+    background-color: #f8f4e8;
+    transition: height 0.4s ease-in-out;
+    overflow: hidden;
+    height: auto;
+    /*padding: 4% 8%;*/
+}
+#services-and-prices-reviews h1 {
+    text-align: center;
+    font-size: 2.4vw;
+    font-weight: 800;
+}
+#review-animation {
+    overflow: hidden;
+    transition: opacity 0.5s ease, height 0.4s ease-in-out;
+}
+#review-animation.fade-out{
+    display: block;
+    transition: all 0.3s ease;
+    transition: opacity 0.5s ease, display 0.5s ease allow-discrete;
+    opacity: 0;
+}
+#review-animation.fade-on{
+    display: block;
+    transition: all 0.3s ease;
+    transition: opacity 0.5s ease, display 0.5s ease allow-discrete;
+    opacity: 1;
+}
+.review.hidden {
+    transition: all 0.3s ease;
+    display: none;
+    
+}
+.reviews {
+    justify-content: space-between;
+    display: flex;
+    transition: all 0.3s ease;
+    gap: 4vw;
+}
+.review span {
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+.review img {
+
+    width: 4vw;
+    border-radius: 50%;
+}
+.review h2 {
+    font-size: 1.6vw;
+    font-weight: 400;
+    margin: 0;
+}
+.review p {
+    font-size: 1.6vw;
+    font-weight: 200;  
+    margin: 2vh 0 4vh 0; 
+}
+.reviews-gui button{
+    color:#ffffff;
+    background-color:#5199ff;
+    -webkit-user-select: none;
+    user-select: none; 
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow:0px 0px 1vh rgba(0,0,0,0.3);
+    border-radius:1vW;
+    font-size: 2vw;
+    padding: 1vh 1vw;
+    margin: 2vh 2vw 2vh 2vw; 
+    border: none;
+}
+@media (hover: hover) {
+    .reviews-gui button:hover {
+        margin-top: 0;
+        padding-bottom: 3vh; 
+        padding-top: 3vh; 
+    }
+}
+.reviews-gui button:active {
+    box-shadow:0px 0px 1vh rgba(0,0,0,0.0);
+}
+@media (max-width: 600px){
+    #services-and-prices {
+        background-color: #FFFFFF;
+        scroll-margin-top: 8vh; 
+        padding: 4% 8%;
+    }
+    #services-and-prices h1 {
+        text-align: center;
+        font-size: 6vw;
+        font-weight: 800;
+        margin-top: 0;
+    }
+    .prices {
+        display: grid;
+        grid-template-columns: auto;
+        width: auto;
+        height: auto;
+        grid-row: 2;
+    }
+    .price { 
+        font-size: 1.5vw;
+        margin: 1.5vw;
+    }
+    .price h2{
+        font-size: 3.6vw;
+        margin: 0;
+    }
+    .price h6 {
+        font-weight: 200;
+        font-size: 4vw;
+        margin: 0;
+    }
+    .price p {
+        font-size: 4vw;
+        margin: 3.6;
+    }
+    .price hr {
+        color: #5199ff;;
+    }
+    .price span {
+        display: flex;
+        justify-content: space-between;
+    }
+    #services-and-prices-reviews {
+        background-color: #f8f4e8;
+        transition: height 0.4s ease-in-out;
+        padding: 2% 4%;
+    }
+    #services-and-prices-reviews h1 {
+        text-align: center;
+        font-size: 6vw;
+        font-weight: 800;
+    }
+    .reviews {
+        display: flex;
+        gap: 1vw;
+        justify-content: space-between;
+    }
+    .review span {
+        display: flex;
+        align-items: center;
+        gap: 2vw;
+    }
+    .review img {
+        width: 8vw;
+        border-radius: 50%;
+    }
+    .review h2 {
+        font-size: 4vw;
+        font-weight: 400;
+        margin: 0;
+    }
+    .review p {
+        font-size: 4vw;
+        font-weight: 200;  
+        margin: 1vh 0 2vh 0; 
+    }
+    .reviews-gui button{
+        color:#ffffff;
+        background-color:#5199ff;
+        -webkit-user-select: none;
+        user-select: none; 
+        text-decoration: none;
+        transition: all 0.3s ease;
+        box-shadow:0px 0px 1vh rgba(0,0,0,0.3);
+        border-radius:1vW;
+        font-size: 4vw;
+        padding: 2vh 2vw;
+        margin: 2vh 2vw 2vh 2vw; 
+        border: none;
+    }
+}
